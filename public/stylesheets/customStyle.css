@@ -1,0 +1,189 @@
+@font-face {
+  font-family: 'droidkufi';
+  src : url("../fonts/DroidKufi-Regular.ttf") format("truetype");
+}
+.font {
+  /*font-family: 'Droid Arabic Kufi', sans-serif;*/
+  /*font-family: 'Droid Arabic Naskh', serif;*/
+  font-family: 'droidkufi', sans-serif; 
+}
+/*FONT STYLE END*/
+#h3{
+  font-size:20px;
+  /*font-weight:bold;*/
+  line-height: 30px;
+}
+
+
+.clickable{
+    cursor: pointer;   
+}
+
+
+#panel-heading{
+  font-size: 15px;
+  line-height: 30px;
+}
+
+legend{
+  /*color:#141823;*/
+  color:#337ab7;
+  font-size:25px;
+  /*font-weight:bold;*/
+  padding-bottom: 20px;
+}
+input[type="text"],input[type="password"]{
+  line-height: 25px;
+}
+/* Sticky footer styles start
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+/* Sticky footer styles end
+------------------------------------------------- */
+/*JQuery Validation Style Start*/
+.error{
+  color: red;
+  position: absolute;
+  font-size: 100%;
+  font-weight: 100;
+}
+.custom-error{
+  color: red;
+  font-size: 100%;
+  font-weight: 100;
+}
+/*JQuery Validation Style End*/
+/*Back To Top Style Start*/
+#toTop{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: none;
+}
+/*Back To Top Style End*/
+h4.text-center{
+  color:#337ab7;
+}
+label{
+  font-weight: 100;
+}
+
+@media only screen and (max-width:1300px){
+  .text-none{
+    display: none;
+  }
+}
+
+/** The Magic **/
+.btn-breadcrumb .btn:not(:last-child):after {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-right: 10px solid white;
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  right: 100%;
+  z-index: 3;
+}
+.btn-breadcrumb .btn:not(:last-child):before {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-right: 10px solid rgb(173, 173, 173);
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  margin-right: 1px;
+  right: 100%;
+  z-index: 3;
+}
+/** The Spacing **/
+.btn-breadcrumb .btn {
+  padding:6px 24px 6px 12px;
+}
+.btn-breadcrumb .btn:first-child {
+  padding:6px 10px 6px 6px;
+}
+.btn-breadcrumb .btn:last-child {
+  padding:6px 24px 6px 18px;
+}
+/** Default button **/
+.btn-breadcrumb .btn.btn-default:not(:last-child):after {
+  border-right: 10px solid #fff;
+}
+.btn-breadcrumb .btn.btn-default:not(:last-child):before {
+  border-right: 10px solid #ccc;
+}
+.btn-breadcrumb .btn.btn-default:hover:not(:last-child):after {
+  border-right: 10px solid #ebebeb;
+}
+.btn-breadcrumb .btn.btn-default:hover:not(:last-child):before {
+  border-right: 10px solid #adadad;
+}
+.btn-breadcrumb > .active, table > tr {
+  background-color: #f5f5f5;
+}
+
+/*Delete Model Style Start*/
+.alert{
+  margin-bottom: auto;
+}
+/*Delete Model Style End*/
+
+/*Panel Collapsed in subGroup.jade Style Start*/
+.clickable{
+    cursor: pointer;   
+}
+#panel-heading span {
+  margin-top: -20px;
+  font-size: 15px;
+}
+/*Panel Collapsed in subGroup.jade Style End*/
+.input-group-addon.primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 118, 177);
+    border-color: rgb(40, 94, 142);
+}
+.input-group-addon.success {
+    color: rgb(255, 255, 255);
+    background-color: rgb(92, 184, 92);
+    border-color: rgb(76, 174, 76);
+}
+.input-group-addon.info {
+    color: rgb(255, 255, 255);
+    background-color: rgb(57, 179, 215);
+    border-color: rgb(38, 154, 188);
+}
+.input-group-addon.warning {
+    color: rgb(255, 255, 255);
+    background-color: rgb(240, 173, 78);
+    border-color: rgb(238, 162, 54);
+}
+.input-group-addon.danger {
+    color: rgb(255, 255, 255);
+    background-color: rgb(217, 83, 79);
+    border-color: rgb(212, 63, 58);
+}
